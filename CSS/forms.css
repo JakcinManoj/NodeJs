@@ -1,0 +1,43 @@
+.topic{
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    color:  rgb(8, 58, 105);
+    transform: translate(-50%,-50%);
+    font-size: 160px;
+    
+ }
+ .topic:nth-child(1){
+    font-size: 30pt;
+    color: #eb3486;
+    animation-name: fontChange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes fontChange {
+    0% {
+      font-family: 'Major Mono Display', monospace;
+    }
+    20% {
+      font-family: 'Kaushan Script', cursive;
+    }
+    40% {
+      font-family: 'Lobster', cursive;
+    }
+    60% {
+      font-family: 'Ranchers', cursive;
+    }
+    80% {
+      font-family: 'Bitter', serif;
+    }
+    100% {
+      font-family: 'Major Mono Display', monospace;
+    }
+  }
+
+body {
+    background-color: black;
+}
+
+
+    
